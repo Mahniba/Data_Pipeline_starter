@@ -1,36 +1,900 @@
-## Data Pipeline Starter
-An open-source data engineering project for building reliable data pipelines from CSV/API sources to MySQL, analytics, machine learning, APIs and dashboards.
-## Architecture
 
-CSV/API → Python → Validation → Cleaning → MySQL → ETL → Analytics → ML → API/Dashboard
+# Data Pipeline Starter 🇨🇲
 
-## Current Status
+A practical data engineering project focused on building a reliable procurement data pipeline using Python, data validation, cleaning, MySQL, analytics, machine learning, APIs, and cloud technologies.
 
+The project uses a synthetic Cameroon public procurement dataset to simulate the challenges a data engineer may encounter when working with real-world procurement data.
+
+> **Current status:** Phase 1 and Phase 2 completed.  
+> Phase 3 will begin with data ingestion and validation.
+
+# Project Overview
+
+The long-term objective of this project is to build an end-to-end data pipeline following this architecture:
+
+text
+CSV / API
+    ↓
+Python
+    ↓
+Data Cleaning
+    ↓
+MySQL
+    ↓
+ETL Pipeline
+    ↓
+Analytics
+    ↓
+ML Model
+    ↓
+API / Dashboard
+
+However, we are building the system incrementally.
+
+At the current stage, we have completed:
+text
+Phase 1
+Project Setup
+     ↓
+Phase 2
+Synthetic Data Generation & Exploration
+
+# Project Objectives
+
+The project is designed to develop practical skills in:
+
+* Data Engineering
+* Python
+* Data Cleaning
+* Data Validation
+* ETL
+* MySQL
+* Data Analytics
+* Machine Learning
+* REST APIs
+* Cloud/DevOps
+* Docker
+* CI/CD
+
+The emphasis is on understanding **why** each component is needed and how the components eventually work together as one data system.
+
+# Current Technology Stack
+
+At the current stage, we are primarily using:
+
+| Technology       | Purpose                          |
+| ---------------- | -------------------------------- |
+| Python           | Core programming language        |
+| Pandas           | Data exploration and analysis    |
+| CSV              | Current data source              |
+| Jupyter Notebook | Data exploration                 |
+| Git              | Version control                  |
+| GitHub           | Repository and collaboration     |
+| Python `venv`    | Isolated development environment |
+
+Future technologies such as MySQL, FastAPI, Docker, AWS, and machine learning frameworks will be introduced in later phases.
+
+# Current Project Structure
+
+The project currently follows this structure:
+
+text
+cameroon-data-pipeline-starter/
+│
+├── .venv/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   ├── sample/
+│   │   └── procurement_raw_sample.csv
+│   └── rejected/
+│
+├── docs/
+│
+├── notebooks/
+│   └── 01_explore_raw_data.ipynb
+│
+├── src/
+│   └── generate_sample_data.py
+│
+├── tests/
+│
+├── .env.example
+├── .gitignore
+├── requirements.txt
+└── README.md
+
+Some directories have been created in preparation for later phases but are not yet actively used.
+
+
+# PHASE 1: PROJECT SETUP
+
+**Status: COMPLETED**
+Phase 1 established the development environment and project foundation.
+
+## 1.1 Git Repository
+
+Git was initialized to allow us to track changes to the project.
+This is important because a data engineering project will contain many changes to:
+* Python scripts
+* Notebooks
+* Configuration
+* Database scripts
+* Documentation
+* Tests
+
+Git allows us to see what changed and return to earlier versions when necessary.
+
+## 1.2 Python Virtual Environment
+
+A Python virtual environment was created using:
+
+```bash
+python -m venv .venv
+```
+
+The virtual environment isolates this project's Python packages from other projects on the computer.
+
+The environment contains directories such as:
+
+```text
+.venv/
+├── Include/
+├── Lib/
+├── Scripts/
+└── pyvenv.cfg
+```
+
+### `Scripts/`
+
+Contains executables used by the virtual environment.
+
+On Windows, this is where the activation scripts are located.
+
+For PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+For Command Prompt:
+
+```cmd
+.venv\Scripts\activate.bat
+```
+
+### `Lib/`
+
+Contains Python packages installed inside the virtual environment.
+
+For example:
+
+```text
+.venv/
+└── Lib/
+    └── site-packages/
+```
+
+Packages such as Pandas can be installed here without affecting other Python projects.
+
+### `Include/`
+
+Contains files used by some packages when compiling or interacting with Python's development environment.
+
+### `pyvenv.cfg`
+
+Contains configuration information about the virtual environment, including the Python installation it is associated with.
+
+---
+
+## 1.3 Dependency Management
+
+A `requirements.txt` file was created to keep track of Python dependencies.
+
+The purpose is reproducibility.
+
+Another developer should be able to clone the project and install the required packages rather than manually guessing what is needed.
+
+---
+
+## 1.4 `.gitignore`
+
+A `.gitignore` file was created to prevent files that should not be committed to Git from being tracked.
+
+For example:
+
+```text
+.venv/
+__pycache__/
+.env
+*.pyc
+```
+
+The virtual environment itself should not be uploaded to GitHub.
+
+Instead, another developer can recreate it from the project dependencies.
+
+---
+
+## 1.5 Environment Configuration
+
+An `.env.example` file was created as a template for future environment variables.
+
+This will become particularly important when we introduce:
+
+* MySQL
+* Database credentials
+* API keys
+* Cloud services
+* Authentication
+
+Sensitive credentials should never be committed directly to GitHub.
+
+---
+
+# PHASE 2: SYNTHETIC DATA GENERATION & EXPLORATION
+
+**Status: COMPLETED**
+
+Phase 2 created a realistic but intentionally imperfect procurement dataset.
+
+The purpose is to simulate the type of data-quality problems encountered in real-world systems.
+
+---
+
+# 2.1 Synthetic Dataset
+
+The dataset is generated using:
+
+```text
+src/generate_sample_data.py
+```
+
+The generated file is:
+
+```text
+data/sample/procurement_raw_sample.csv
+```
+
+The dataset is **synthetic**.
+
+It does not represent official Cameroon government procurement statistics.
+
+It is being used for learning and system development.
+
+---
+
+# 2.2 Dataset Size
+
+The generator initially creates:
+
+```text
+300 procurement records
+```
+
+It then intentionally adds:
+
+```text
+10 duplicate records
+```
+
+Therefore, the resulting CSV contains:
+
+```text
+310 rows
+```
+
+The dataset contains 10 columns.
+
+---
+
+# 2.3 Dataset Columns
+
+The current dataset contains:
+
+| Column              | Description                                  |
+| ------------------- | -------------------------------------------- |
+| `project_id`        | Unique procurement project identifier        |
+| `organization`      | Organization responsible for the procurement |
+| `region`            | Cameroon administrative region               |
+| `procurement_type`  | Works, Supplies, or Services                 |
+| `budget_fcfa`       | Planned procurement budget                   |
+| `status`            | Current procurement status                   |
+| `publication_date`  | Date the procurement was published           |
+| `award_amount_fcfa` | Amount awarded when applicable               |
+| `contractor`        | Contractor selected for an awarded project   |
+| `processing_days`   | Number of days used for processing           |
+
+---
+
+# 2.4 Procurement Business Logic
+
+One of the most important parts of Phase 2 was establishing realistic relationships between the fields.
+
+The project follows a simplified procurement lifecycle:
+
+```text
+Programming
+      ↓
+Published
+      ↓
+Awarded
+```
+
+There are also possible unsuccessful outcomes:
+
+```text
+Published / Evaluation
+        ↓
+   Unsuccessful
+```
+
+and:
+
+```text
+Programming / Published / Evaluation
+                ↓
+             Cancelled
+```
+
+The exact procurement lifecycle in a real system can be more complex. This project uses a simplified model for learning.
+
+---
+
+# 2.5 Programming
+
+A project in `Programming` means that it has been planned but has not yet reached publication.
+
+Expected data:
+
+```text
+Budget             → YES
+Publication Date   → NO
+Award Amount       → NO
+Contractor         → NO
+```
+
+Example:
+
+```text
+Status: Programming
+Budget: 100,000,000 FCFA
+Publication Date: NULL
+Award Amount: NULL
+Contractor: NULL
+```
+
+The missing values here are **not data-quality errors**.
+
+They are expected because the project has not reached those stages.
+
+---
+
+# 2.6 Published
+
+A `Published` project has reached the publication stage but has not yet been awarded.
+
+Expected data:
+
+```text
+Budget             → YES
+Publication Date   → YES
+Award Amount       → NO
+Contractor         → NO
+```
+
+Example:
+
+```text
+Status: Published
+Budget: 150,000,000 FCFA
+Publication Date: 2025-06-15
+Award Amount: NULL
+Contractor: NULL
+```
+
+---
+
+# 2.7 Awarded
+
+An `Awarded` project has successfully reached the award stage.
+
+Expected data:
+
+```text
+Budget             → YES
+Publication Date   → YES
+Award Amount       → YES
+Contractor         → YES
+```
+
+Example:
+
+```text
+Status: Awarded
+Budget: 200,000,000 FCFA
+Publication Date: 2025-04-20
+Award Amount: 180,000,000 FCFA
+Contractor: Cameroon Build Ltd
+```
+
+---
+
+# 2.8 Unsuccessful
+
+An `Unsuccessful` project did not result in a successful award.
+
+Expected data:
+
+```text
+Budget             → YES
+Publication Date   → YES
+Award Amount       → NO
+Contractor         → NO
+```
+
+Therefore:
+
+```text
+Status: Unsuccessful
+Award Amount: NULL
+```
+
+is correct.
+
+This is an important business rule in the project.
+
+---
+
+# 2.9 Cancelled
+
+A `Cancelled` project did not proceed to an award.
+
+Expected data:
+
+```text
+Budget             → YES
+Publication Date   → MAYBE
+Award Amount       → NO
+Contractor         → NO
+```
+
+A cancelled project may have been cancelled before publication or after publication in our simplified model.
+
+Therefore, the publication date is allowed to be either populated or missing.
+
+However:
+
+```text
+Cancelled
++
+Award Amount
+```
+
+is considered inconsistent with our simplified business rules.
+
+---
+
+# Why Business Logic Matters
+
+A major lesson from Phase 2 was that:
+
+> A missing value is not automatically bad data.
+
+For example:
+
+```text
+Status: Programming
+Award Amount: NULL
+```
+
+is valid.
+
+But:
+
+```text
+Status: Awarded
+Award Amount: NULL
+```
+
+is suspicious.
+
+Therefore, the future validation system should not simply ask:
+
+```text
+"Is this field empty?"
+```
+
+It should ask:
+
+```text
+"Should this field contain a value
+given the status of this project?"
+```
+
+This distinction is fundamental to good data engineering.
+
+---
+
+# 2.10 Intentional Data-Quality Problems
+
+After generating logically consistent base records, the script intentionally introduces several problems.
+
+This allows us to build and test a future data validation pipeline.
+
+---
+
+## Missing Organizations
+
+Some records have:
+
+```text
+organization = ""
+```
+
+These should eventually be detected as missing required data.
+
+---
+
+## Missing Regions
+
+Some records have:
+
+```text
+region = ""
+```
+
+These should also be identified during validation.
+
+---
+
+## Inconsistent Region Names
+
+Some records use:
+
+```text
+North West
+```
+
+while the standardized form is:
+
+```text
+North-West
+```
+
+This creates a categorical consistency problem.
+
+---
+
+## Extra Whitespace
+
+Some organization values are deliberately changed from:
+
+```text
+MINMAP
+```
+
+to:
+
+```text
+  MINMAP
+```
+
+or:
+
+```text
+MINMAP
+```
+
+with trailing spaces.
+
+The future cleaning pipeline will standardize these values.
+
+---
+
+## Invalid Processing Duration
+
+Some records intentionally contain:
+
+```text
+processing_days = -10
+```
+
+A negative processing duration is logically invalid.
+
+This should be detected by validation.
+
+---
+
+## Suspicious Award Amounts
+
+Some awarded projects intentionally have an award amount greater than their budget.
+
+For example:
+
+```text
+Budget:
+100,000,000 FCFA
+
+Award:
+150,000,000 FCFA
+```
+
+This is included as a deliberate data-quality problem.
+
+It gives the future validation system a business rule to detect:
+
+```text
+award_amount_fcfa <= budget_fcfa
+```
+
+---
+
+## Missing Contractor
+
+Some awarded projects intentionally have their contractor removed.
+
+For example:
+
+```text
+Status: Awarded
+Contractor: NULL
+```
+
+This violates our business rule that an awarded project should have a contractor.
+
+---
+
+## Duplicate Records
+
+Ten existing records are copied and appended to the dataset.
+
+This allows us to later demonstrate duplicate detection.
+
+---
+
+#  2.11 Why We Created Imperfect Data
+
+The objective is not to create a dataset that is perfectly clean from the beginning.
+
+Instead, we want to reproduce a realistic engineering workflow:
+
+```text
+RAW DATA
+   ↓
+Inspect
+   ↓
+Identify Problems
+   ↓
+Validate
+   ↓
+Clean
+   ↓
+Transform
+   ↓
+Store
+```
+
+This is much closer to how real data engineering projects work.
+
+---
+
+# 2.12 Current Data Quality Categories
+
+At the end of Phase 2, the dataset contains examples of:
+
+```text
+Missing Values
+      +
+Inconsistent Categories
+      +
+Whitespace Problems
+      +
+Invalid Numerical Values
+      +
+Business Rule Violations
+      +
+Duplicate Records
+```
+
+These will become the inputs for our validation and cleaning pipeline.
+
+---
+
+#  2.13 Phase 2 Data Exploration
+
+The project also includes a Jupyter notebook:
+
+```text
+notebooks/
+└── 01_explore_raw_data.ipynb
+```
+
+The purpose of this notebook is to understand the raw dataset before attempting to clean it.
+
+Typical exploratory checks include:
+
+```python
+df.head()
+```
+
+to inspect the first records.
+
+```python
+df.shape
+```
+
+to determine the number of rows and columns.
+
+```python
+df.info()
+```
+
+to inspect data types and missing values.
+
+```python
+df.isnull().sum()
+```
+
+to identify missing values.
+
+```python
+df.duplicated().sum()
+```
+
+to identify duplicate rows.
+
+```python
+df["status"].value_counts()
+```
+
+to understand the distribution of procurement statuses.
+
+---
+
+# Phase 2 Output
+
+The main output of Phase 2 is:
+
+```text
+data/sample/procurement_raw_sample.csv
+```
+
+This file represents our intentionally imperfect raw development dataset.
+
+It should **not be manually cleaned**.
+
+The purpose of the next phase is to build code that can systematically identify and handle these problems.
+
+---
+
+# Current Project Flow
+
+At the end of Phase 2, our workflow is:
+
+```text
+Python Generator
+       ↓
+Synthetic Procurement Data
+       ↓
+Business Logic
+       ↓
+Intentional Data-Quality Problems
+       ↓
+CSV
+       ↓
+Exploration
+```
+
+The next stage will extend this into:
+
+```text
+CSV
+ ↓
+Data Ingestion
+ ↓
+Validation
+ ↓
+Cleaning
+```
+
+---
+
+# Current Project Status
+
+```text
 Phase 1: Project Setup
+████████████████████ 100% 
 
-## Technology Stack
-- Python
-- Pandas
-- MySQL
-- FastAPI
-- pytest
-- Docker
-- GitHub Actions
-- scikit-learn
+Phase 2: Data Generation & Exploration
+████████████████████ 100% 
 
-## Getting Started
-Clone the repository and create a Python virtual environment.
+Phase 3: Data Ingestion
+░░░░░░░░░░░░░░░░░░░░   0% 
+```
 
-## Roadmap
-- [ ] Project setup
-- [ ] CSV ingestion
-- [ ] Data validation
-- [ ] Data cleaning
-- [ ] MySQL integration
-- [ ] ETL pipeline
-- [ ] Analytics
-- [ ] API
-- [ ] Machine learning
-- [ ] Docker
-- [ ] CI/CD
-- [ ] Cloud deployment
+Only Phase 1 and Phase 2 are currently considered completed.
+
+---
+
+# Regenerating the Dataset
+
+To regenerate the synthetic dataset, run:
+
+```bash
+python src/generate_sample_data.py
+```
+
+The script will create:
+
+```text
+data/sample/procurement_raw_sample.csv
+```
+
+Because the script uses:
+
+```python
+random.seed(42)
+```
+
+the generated dataset is reproducible.
+
+---
+
+#  Key Lessons From Phases 1 & 2
+
+The first two phases have established several important data engineering principles:
+
+### 1. Environment isolation
+
+Python projects should use isolated environments.
+
+### 2. Reproducibility
+
+Data generation and processing should produce reproducible results.
+
+### 3. Raw data preservation
+
+The original data should be preserved before transformation.
+
+### 4. Data quality is contextual
+
+A missing value is not automatically an error.
+
+### 5. Business logic matters
+
+Data must make sense in the context of the process that generated it.
+
+### 6. Data validation should come before cleaning
+
+We should identify what is wrong before deciding how to fix it.
+
+### 7. Synthetic data can be useful
+
+Synthetic data allows us to safely build and test our pipeline before working with sensitive or real-world datasets.
+
+---
+
+#  Current Learning Goal
+
+At this point, the objective is not simply to have a CSV file.
+
+The objective is to understand the journey from:
+
+```text
+RAW DATA
+```
+
+to:
+
+```text
+TRUSTWORTHY DATA
+```
+
+The next phase will begin turning this concept into an actual engineering pipeline.
+
+```
+
+This is the version I recommend keeping in GitHub **right now**. It documents what you have genuinely completed and leaves the future architecture as context rather than claiming unfinished work is done.
+```
