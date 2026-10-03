@@ -1,0 +1,36 @@
+## Data Pipeline Starter
+An open-source data engineering project for building reliable data pipelines from CSV/API sources to MySQL, analytics, machine learning, APIs and dashboards.
+## Architecture
+
+CSV/API → Python → Validation → Cleaning → MySQL → ETL → Analytics → ML → API/Dashboard
+
+## Current Status
+
+Phase 1: Project Setup
+
+## Technology Stack
+- Python
+- Pandas
+- MySQL
+- FastAPI
+- pytest
+- Docker
+- GitHub Actions
+- scikit-learn
+
+## Getting Started
+Clone the repository and create a Python virtual environment.
+
+## Roadmap
+- [ ] Project setup
+- [ ] CSV ingestion
+- [ ] Data validation
+- [ ] Data cleaning
+- [ ] MySQL integration
+- [ ] ETL pipeline
+- [ ] Analytics
+- [ ] API
+- [ ] Machine learning
+- [ ] Docker
+- [ ] CI/CD
+- [ ] Cloud deployment
