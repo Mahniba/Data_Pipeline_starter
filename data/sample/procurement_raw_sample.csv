@@ -1,0 +1,311 @@
+project_id,organization,region,procurement_type,budget_fcfa,status,publication_date,award_amount_fcfa,contractor,processing_days
+PRJ-0001,MINADER,Littoral,Works,136475314,Awarded,2025-08-17,125685761.86,Central Works SARL,40
+PRJ-0002,MINADER,South,Works,231517555,Unsuccessful,2025-02-02,,,12
+PRJ-0003,MINMAP,South-West,Works,328206344,Unsuccessful,2025-01-28,,,148
+PRJ-0004,MINEPAT,South,Supplies,246167269,Published,2026-08-27,,,76
+PRJ-0005,MINPOSTEL,Centre,Works,187670606,Cancelled,,,,44
+PRJ-0006,MINEPAT,North,Works,208971919,Programming,,,,29
+PRJ-0007,MINTP,North,Services,438323695,Awarded,2025-02-14,377339030.02,Global Services Ltd,122
+PRJ-0008,MINMAP,South,Supplies,480373285,Unsuccessful,2026-01-06,,,152
+PRJ-0009,MINEPAT,Littoral,Works,420037905,Published,2025-10-24,,,25
+PRJ-0010,MINPOSTEL,South-West,Works,154235943,Cancelled,,,,167
+PRJ-0011,MINPOSTEL,North,Works,195734506,Awarded,2025-08-03,152691185.83,Central Works SARL,176
+PRJ-0012,MINADER,Littoral,Services,291764160,Published,2025-09-08,,,46
+PRJ-0013,MINSANTE,Far-North,Supplies,122904996,Unsuccessful,2025-11-29,,,19
+PRJ-0014,MINEPAT,,Supplies,148742291,Cancelled,2025-08-05,,,150
+PRJ-0015,MINADER,North,Works,217403258,Cancelled,,,,41
+PRJ-0016,MINTP,North-West,Works,294361229,Unsuccessful,2025-09-27,,,154
+PRJ-0017,MINSANTE,East,Supplies,122746935,Awarded,2025-05-22,104096121.33,Cameroon Build Ltd,135
+PRJ-0018,MINPOSTEL,Littoral,Works,430244369,Published,2026-11-28,,,113
+PRJ-0019,MINEDUB,Littoral,Supplies,324915161,Cancelled,,,,140
+PRJ-0020,MINTP,South,Works,370990466,Programming,,,,142
+PRJ-0021,MINPOSTEL,West,Services,64889117,Awarded,2025-10-28,48501197.01,Cameroon Build Ltd,116
+PRJ-0022,MINADER,West,Services,277559523,Published,2025-04-19,,,165
+PRJ-0023,MINTP,South,Services,87054959,Published,2026-01-18,,,46
+PRJ-0024,MINEDUB,South,Works,179029959,Unsuccessful,2026-05-16,,,9
+PRJ-0025,MINMAP,North,Supplies,36098339,Published,2025-09-04,,,150
+PRJ-0026,MINMAP,Littoral,Services,443099148,Cancelled,2026-06-30,,,37
+PRJ-0027,MINEPAT,Adamawa,Services,147301192,Published,2026-06-25,,,160
+PRJ-0028,MINSANTE,South-West,Services,387761564,Published,2025-11-16,,,107
+PRJ-0029,MINADER,North,Supplies,247389777,Unsuccessful,2025-05-04,,,68
+PRJ-0030,MINEPAT,Littoral,Supplies,320845836,Programming,,,,146
+PRJ-0031,MINEPAT,East,Works,43114122,Programming,,,,166
+PRJ-0032,MINMAP,South-West,Works,466513240,Programming,,,,89
+PRJ-0033,MINMAP,South,Works,364154708,Awarded,2026-05-13,313817668.05,Central Works SARL,59
+PRJ-0034,MINEDUB,North West,Supplies,426239347,Published,2026-04-30,,,109
+PRJ-0035,MINEPAT,Littoral,Works,195212059,Cancelled,,,,110
+PRJ-0036,MINSANTE,Centre,Services,37541181,Programming,,,,108
+PRJ-0037,MINADER,North,Works,107859136,Published,2025-07-14,,,142
+PRJ-0038,  MINSANTE  ,North-West,Supplies,154542787,Published,2026-04-19,,,-10
+PRJ-0039,MINPOSTEL,Littoral,Supplies,57564348,Unsuccessful,2025-02-21,,,171
+PRJ-0040,MINEDUB,Centre,Works,94287596,Published,2026-02-21,,,129
+PRJ-0041,MINSANTE,South-West,Supplies,93388881,Programming,,,,102
+PRJ-0042,MINMAP,Far-North,Supplies,158142014,Cancelled,,,,147
+PRJ-0043,MINADER,Adamawa,Works,164293802,Published,2025-08-11,,,19
+PRJ-0044,MINEDUB,South,Works,35690373,Awarded,2025-02-21,30088289.11,Mountain Engineering,154
+PRJ-0045,MINEPAT,North West,Services,462061050,Programming,,,,52
+PRJ-0046,MINMAP,East,Works,221775349,Published,2025-05-03,,,150
+PRJ-0047,MINEPAT,East,Services,337527916,Programming,,,,25
+PRJ-0048,MINSANTE,East,Services,174849767,Unsuccessful,2025-09-25,,,57
+PRJ-0049,MINADER,North,Works,217485908,Awarded,2025-05-15,194356333.15,Global Services Ltd,176
+PRJ-0050,MINTP,Littoral,Works,338482333,Cancelled,2025-03-17,,,142
+PRJ-0051,MINEPAT,South,Supplies,192372691,Published,2025-03-12,,,67
+PRJ-0052,MINTP,West,Works,452613414,Cancelled,,,,161
+PRJ-0053,MINPOSTEL,South,Works,165727741,Unsuccessful,2026-11-11,,,31
+PRJ-0054,MINEPAT,West,Works,403581923,Programming,,,,146
+PRJ-0055,MINEPAT,West,Supplies,118080933,Unsuccessful,2025-12-18,,,57
+PRJ-0056,MINADER,West,Services,139819694,Cancelled,2025-04-05,,,167
+PRJ-0057,MINSANTE,West,Works,184076802,Programming,,,,38
+PRJ-0058,MINADER,West,Works,301181171,Cancelled,,,,148
+PRJ-0059,MINMAP,Littoral,Works,297911559,Published,2025-02-06,,,99
+PRJ-0060,MINEDUB,South,Works,73421792,Cancelled,2025-11-12,,,98
+PRJ-0061,MINPOSTEL,Centre,Supplies,371181766,Published,2025-09-13,,,175
+PRJ-0062,MINMAP,North,Services,338215109,Cancelled,2025-08-31,,,46
+PRJ-0063,,North-West,Supplies,101293522,Programming,,,,90
+PRJ-0064,MINPOSTEL,Far-North,Services,148240225,Published,2025-06-13,,,32
+PRJ-0065,MINSANTE,Centre,Supplies,112144846,Published,2026-04-17,,,-10
+PRJ-0066,MINTP,South-West,Works,359352619,Programming,,,,54
+PRJ-0067,MINSANTE,North West,Supplies,420176578,Programming,,,,76
+PRJ-0068,MINTP,South,Supplies,182784731,Unsuccessful,2025-01-29,,,34
+PRJ-0069,MINTP,North-West,Services,25539176,Awarded,2025-04-22,38308764.0,Central Works SARL,157
+PRJ-0070,MINPOSTEL,North,Supplies,279568165,Unsuccessful,2025-04-29,,,103
+PRJ-0071,MINEDUB,South-West,Supplies,385526202,Programming,,,,116
+PRJ-0072,,South,Services,200539914,Published,2026-03-18,,,22
+PRJ-0073,MINADER,North,Services,361153436,Awarded,2025-05-08,307752115.64,Central Works SARL,81
+PRJ-0074,MINSANTE,North,Supplies,302647935,Awarded,2025-05-11,250027718.91,Global Services Ltd,54
+PRJ-0075,MINADER,North-West,Services,166571235,Unsuccessful,2026-02-20,,,145
+PRJ-0076,MINPOSTEL,Centre,Supplies,117840968,Awarded,2026-03-17,103935553.61,Tech Solutions Cameroon,153
+PRJ-0077,MINSANTE,Adamawa,Supplies,279434449,Published,2026-04-30,,,48
+PRJ-0078,MINADER,Littoral,Supplies,361403814,Unsuccessful,2026-10-11,,,163
+PRJ-0079,MINTP,Littoral,Works,125603039,Awarded,2025-07-23,88842498.18,Africa Infrastructure SARL,42
+PRJ-0080,MINSANTE,East,Works,227501321,Cancelled,2026-01-29,,,131
+PRJ-0081,,South-West,Works,484243092,Programming,,,,32
+PRJ-0082,MINPOSTEL,Far-North,Works,436703191,Published,2026-06-15,,,123
+PRJ-0083,MINMAP,South,Works,250061079,Programming,,,,39
+PRJ-0084,MINPOSTEL,Adamawa,Services,305070731,Unsuccessful,2026-09-02,,,86
+PRJ-0085,MINPOSTEL,Adamawa,Services,234104699,Unsuccessful,2026-07-16,,,119
+PRJ-0086,MINEPAT,Adamawa,Supplies,408607089,Awarded,2025-09-11,320018377.72,Mountain Engineering,168
+PRJ-0087,MINSANTE,South-West,Supplies,46598558,Cancelled,,,,65
+PRJ-0088,MINTP,North,Supplies,48259801,Unsuccessful,2025-05-22,,,43
+PRJ-0089,MINEPAT,Far-North,Services,384255889,Published,2025-08-08,,,21
+PRJ-0090,,Far-North,Supplies,255141207,Unsuccessful,2026-03-02,,,20
+PRJ-0091,MINEPAT,Far-North,Supplies,378406061,Unsuccessful,2025-01-21,,,152
+PRJ-0092,MINSANTE,Adamawa,Works,165316447,Awarded,2026-02-04,142414526.48,Central Works SARL,112
+PRJ-0093,MINEDUB,East,Works,122801095,Cancelled,,,,116
+PRJ-0094,MINSANTE,Centre,Supplies,364098790,Awarded,2026-11-27,333971222.0,Global Services Ltd,108
+PRJ-0095,MINEPAT,East,Services,491903727,Programming,,,,105
+PRJ-0096,MINEDUB,East,Services,50068948,Programming,,,,169
+PRJ-0097,MINSANTE,North-West,Supplies,31996357,Published,2025-09-24,,,102
+PRJ-0098,MINTP,South-West,Supplies,186194227,Awarded,2026-01-24,172341925.24,Global Services Ltd,76
+PRJ-0099,MINTP,Littoral,Supplies,407129337,Programming,,,,143
+PRJ-0100,MINMAP,North,Works,424421299,Programming,,,,171
+PRJ-0101,MINMAP,Centre,Works,455557559,Published,2025-01-21,,,164
+PRJ-0102,MINEPAT,South-West,Works,364412982,Cancelled,2026-08-01,,,60
+PRJ-0103,,West,Supplies,330286162,Published,2026-09-14,,,34
+PRJ-0104,MINPOSTEL,North-West,Supplies,315679002,Programming,,,,11
+PRJ-0105,MINTP,East,Services,217952228,Cancelled,2025-03-19,,,156
+PRJ-0106,MINADER,South-West,Works,461497707,Awarded,2026-12-02,434573187.34,Mountain Engineering,158
+PRJ-0107,MINPOSTEL,Centre,Supplies,234983693,Unsuccessful,2026-11-09,,,99
+PRJ-0108,MINMAP,South,Services,11792569,Awarded,2026-03-07,8628170.62,Tech Solutions Cameroon,130
+PRJ-0109,MINADER,Adamawa,Services,238800381,Published,2025-06-30,,,138
+PRJ-0110,MINADER,West,Services,420882460,Unsuccessful,2026-05-11,,,124
+PRJ-0111,MINSANTE,East,Supplies,462260020,Awarded,2025-09-09,362263227.42,Global Services Ltd,27
+PRJ-0112,MINEPAT,Adamawa,Services,363730953,Unsuccessful,2026-01-24,,,91
+PRJ-0113,MINMAP,Adamawa,Supplies,266751379,Published,2025-08-06,,,95
+PRJ-0114,MINPOSTEL,West,Supplies,477618188,Awarded,2026-09-03,413969502.7,Mountain Engineering,75
+PRJ-0115,,Littoral,Works,267303235,Cancelled,2026-05-03,,,170
+PRJ-0116,MINADER,Adamawa,Supplies,54957637,Programming,,,,80
+PRJ-0117,MINEPAT,Far-North,Services,169393111,Published,2026-11-11,,,153
+PRJ-0118,MINTP,Adamawa,Services,189553344,Unsuccessful,2026-03-12,,,145
+PRJ-0119,MINTP,North,Services,150447148,Cancelled,,,,69
+PRJ-0120,MINEPAT,Littoral,Services,174408512,Published,2025-05-03,,,142
+PRJ-0121,MINPOSTEL,North-West,Works,401535353,Published,2026-05-11,,,75
+PRJ-0122,MINADER,,Services,156933769,Unsuccessful,2025-04-13,,,54
+PRJ-0123,MINTP,South-West,Supplies,167278679,Published,2025-01-15,,,141
+PRJ-0124,MINEPAT,West,Works,302082332,Programming,,,,79
+PRJ-0125,MINADER,North-West,Services,60076321,Cancelled,2026-08-11,,,77
+PRJ-0126,MINSANTE,Adamawa,Supplies,103979491,Awarded,2025-02-22,102141037.84,Global Services Ltd,69
+PRJ-0127,MINMAP,Littoral,Supplies,44772562,Cancelled,2025-06-05,,,43
+PRJ-0128,MINPOSTEL,East,Supplies,138246504,Programming,,,,35
+PRJ-0129,MINEDUB,Far-North,Services,429525748,Unsuccessful,2026-09-26,,,62
+PRJ-0130,MINPOSTEL,South,Supplies,492749575,Cancelled,,,,81
+PRJ-0131,MINPOSTEL,East,Supplies,310280620,Awarded,2026-09-28,465420930.0,Central Works SARL,20
+PRJ-0132,MINMAP,South-West,Services,147080806,Published,2026-11-08,,,25
+PRJ-0133,MINEPAT,South-West,Works,45300147,Unsuccessful,2025-06-10,,,5
+PRJ-0134,MINSANTE,Adamawa,Services,257282341,Unsuccessful,2025-10-26,,,13
+PRJ-0135,MINEPAT,West,Services,382413569,Awarded,2026-04-10,346549094.47,Tech Solutions Cameroon,23
+PRJ-0136,MINPOSTEL,East,Services,233244747,Published,2025-04-28,,,144
+PRJ-0137,MINEPAT,North-West,Supplies,43337865,Published,2025-03-03,,,47
+PRJ-0138,MINPOSTEL,West,Services,499561474,Unsuccessful,2025-10-23,,,117
+PRJ-0139,MINMAP,Adamawa,Services,380666660,Awarded,2026-02-17,323620583.63,Global Services Ltd,74
+PRJ-0140,MINSANTE,Littoral,Services,482505279,Programming,,,,115
+PRJ-0141,MINADER,North,Services,18886110,Awarded,2025-04-04,18670304.67,Mountain Engineering,63
+PRJ-0142,MINEDUB,Centre,Services,314370245,Awarded,2025-02-11,264432609.22,Central Works SARL,49
+PRJ-0143,MINSANTE,West,Works,239013968,Unsuccessful,2026-10-13,,,130
+PRJ-0144,MINMAP,Adamawa,Supplies,183943583,Cancelled,,,,176
+PRJ-0145,MINMAP,North-West,Supplies,377413217,Cancelled,,,,78
+PRJ-0146,MINADER,Far-North,Services,249182802,Programming,,,,27
+PRJ-0147,MINTP,West,Supplies,419758511,Programming,,,,108
+PRJ-0148,MINPOSTEL,South,Works,253021663,Unsuccessful,2026-02-28,,,18
+PRJ-0149,MINEPAT,South,Supplies,411112327,Unsuccessful,2026-05-26,,,165
+PRJ-0150,MINSANTE,Centre,Works,299860050,Awarded,2025-05-15,249314089.25,Central Works SARL,78
+PRJ-0151,MINSANTE,Littoral,Works,434128294,Unsuccessful,2025-09-03,,,45
+PRJ-0152,MINTP,South,Works,224038335,Unsuccessful,2025-04-06,,,62
+PRJ-0153,MINPOSTEL,Littoral,Supplies,352736490,Programming,,,,44
+PRJ-0154,MINSANTE,West,Services,228064677,Awarded,2026-05-10,176321197.01,Mountain Engineering,125
+PRJ-0155,MINEPAT,Far-North,Works,277859750,Unsuccessful,2025-05-20,,,22
+PRJ-0156,MINTP,Far-North,Supplies,148437229,Unsuccessful,2025-01-03,,,77
+PRJ-0157,MINADER,West,Services,359302994,Unsuccessful,2026-05-17,,,43
+PRJ-0158,MINSANTE,South,Supplies,183477341,Awarded,2026-07-20,275216011.5,Tech Solutions Cameroon,144
+PRJ-0159,MINPOSTEL,North West,Services,311981523,Published,2026-01-28,,,64
+PRJ-0160,MINPOSTEL,Far-North,Works,404810534,Awarded,2026-04-30,330253997.59,Central Works SARL,102
+PRJ-0161,MINPOSTEL,North-West,Supplies,72777949,Programming,,,,133
+PRJ-0162,MINEDUB,North,Works,58532310,Cancelled,,,,8
+PRJ-0163,MINADER,North-West,Supplies,45173111,Published,2026-04-26,,,-10
+PRJ-0164,MINTP,East,Services,353878398,Cancelled,2025-12-03,,,177
+PRJ-0165,MINPOSTEL,South,Supplies,341510244,Awarded,2026-05-15,242735143.9,Cameroon Build Ltd,143
+PRJ-0166,MINEPAT,West,Works,237986657,Programming,,,,30
+PRJ-0167,MINPOSTEL,Littoral,Supplies,377589037,Published,2025-11-03,,,12
+PRJ-0168,MINMAP,North,Works,197448542,Awarded,2026-01-19,146836742.58,Mountain Engineering,115
+PRJ-0169,MINSANTE,East,Services,96259276,Published,2025-06-29,,,25
+PRJ-0170,MINEDUB,Far-North,Services,272183069,Published,2026-08-21,,,41
+PRJ-0171,MINEPAT,Adamawa,Services,251730032,Awarded,2025-09-19,377595048.0,Global Services Ltd,175
+PRJ-0172,MINTP,South,Works,242151870,Programming,,,,93
+PRJ-0173,MINEDUB,West,Services,375609245,Cancelled,,,,121
+PRJ-0174,MINPOSTEL,West,Works,463130986,Cancelled,,,,32
+PRJ-0175,MINEPAT,Far-North,Services,313599807,Awarded,2025-10-30,221583941.0,Central Works SARL,80
+PRJ-0176,MINSANTE,West,Works,469429523,Unsuccessful,2025-02-20,,,160
+PRJ-0177,MINADER,Adamawa,Supplies,330915537,Published,2025-12-27,,,61
+PRJ-0178,MINADER,South-West,Services,368872023,Awarded,2026-11-07,350982148.59,,179
+PRJ-0179,MINMAP,Centre,Supplies,22912445,Cancelled,,,,38
+PRJ-0180,MINMAP,West,Supplies,99296046,Cancelled,2025-05-16,,,143
+PRJ-0181,MINTP,South,Services,450856595,Awarded,2025-06-18,439231116.16,Global Services Ltd,70
+PRJ-0182,MINPOSTEL,West,Services,436769059,Awarded,2025-04-28,431906940.53,Africa Infrastructure SARL,124
+PRJ-0183,MINPOSTEL,South-West,Services,459055608,Cancelled,,,,28
+PRJ-0184,MINPOSTEL,Far-North,Works,293070067,Awarded,2025-05-07,237555474.0,Central Works SARL,121
+PRJ-0185,MINADER,,Services,446531925,Cancelled,,,,32
+PRJ-0186,,South-West,Supplies,337616688,Programming,,,,148
+PRJ-0187,MINTP,East,Works,346129883,Programming,,,,123
+PRJ-0188,MINADER,West,Services,67639917,Cancelled,2025-02-16,,,14
+PRJ-0189,MINTP,North West,Works,131057305,Programming,,,,142
+PRJ-0190,MINEPAT,Far-North,Supplies,364964544,Awarded,2026-07-08,319782701.22,Central Works SARL,112
+PRJ-0191,MINEPAT,Far-North,Services,452585565,Programming,,,,130
+PRJ-0192,MINEDUB,Far-North,Supplies,375591609,Programming,,,,99
+PRJ-0193,MINEPAT,Adamawa,Supplies,464266325,Published,2026-01-07,,,30
+PRJ-0194,MINADER,North,Services,37507582,Awarded,2026-02-12,28391085.46,,75
+PRJ-0195,MINPOSTEL,Adamawa,Works,349512462,Published,2026-10-17,,,157
+PRJ-0196,MINMAP,Centre,Supplies,72604868,Published,2026-08-02,,,57
+PRJ-0197,MINMAP,South,Works,120937999,Unsuccessful,2025-08-27,,,89
+PRJ-0198,MINPOSTEL,North-West,Services,153860798,Programming,,,,42
+PRJ-0199,MINEPAT,South,Supplies,64016257,Published,2026-11-08,,,11
+PRJ-0200,MINEPAT,Centre,Supplies,321138005,Published,2025-11-28,,,9
+PRJ-0201,MINEPAT,West,Works,403206851,Published,2026-03-08,,,139
+PRJ-0202,MINMAP,Littoral,Supplies,422694716,Cancelled,,,,136
+PRJ-0203,MINEDUB,Littoral,Supplies,123943616,Unsuccessful,2026-09-22,,,16
+PRJ-0204,MINADER,North West,Supplies,350390898,Cancelled,2025-03-04,,,127
+PRJ-0205,MINPOSTEL,Far-North,Supplies,268211084,Programming,,,,118
+PRJ-0206,MINMAP,Littoral,Supplies,84636119,Unsuccessful,2025-03-09,,,37
+PRJ-0207,MINTP,East,Services,299396618,Unsuccessful,2025-11-29,,,102
+PRJ-0208,MINEDUB,South,Supplies,276415667,Cancelled,,,,30
+PRJ-0209,MINPOSTEL,Littoral,Services,391997981,Unsuccessful,2025-08-09,,,115
+PRJ-0210,  MINSANTE  ,South-West,Supplies,449217313,Awarded,2026-04-10,370513044.98,Cameroon Build Ltd,107
+PRJ-0211,  MINTP  ,Far-North,Supplies,205951329,Awarded,2025-06-06,201192928.73,Cameroon Build Ltd,180
+PRJ-0212,MINMAP,Littoral,Works,56842632,Cancelled,,,,38
+PRJ-0213,MINEDUB,Centre,Services,306551469,Unsuccessful,2025-12-04,,,176
+PRJ-0214,MINMAP,Far-North,Supplies,471053421,Cancelled,2025-10-22,,,158
+PRJ-0215,MINTP,North,Works,277415038,Unsuccessful,2025-08-06,,,44
+PRJ-0216,MINADER,Adamawa,Works,192966017,Programming,,,,147
+PRJ-0217,MINTP,Littoral,Supplies,126418238,Unsuccessful,2026-03-16,,,148
+PRJ-0218,MINPOSTEL,East,Services,19094918,Unsuccessful,2026-09-16,,,173
+PRJ-0219,MINPOSTEL,West,Works,151710922,Published,2025-11-13,,,91
+PRJ-0220,MINTP,Centre,Works,309041322,Published,2026-11-05,,,107
+PRJ-0221,MINMAP,North-West,Services,54262031,Programming,,,,140
+PRJ-0222,MINEPAT,Far-North,Supplies,188017138,Cancelled,2026-01-14,,,84
+PRJ-0223,MINADER,North,Services,50610962,Unsuccessful,2025-02-23,,,44
+PRJ-0224,MINEPAT,East,Works,151084101,Programming,,,,118
+PRJ-0225,MINADER,Far-North,Supplies,242320664,Unsuccessful,2026-03-01,,,74
+PRJ-0226,MINEPAT,South,Works,235808125,Awarded,2025-04-24,353712187.5,Mountain Engineering,77
+PRJ-0227,MINSANTE,South,Services,29383261,Awarded,2025-08-14,29246149.82,Cameroon Build Ltd,106
+PRJ-0228,MINMAP,South-West,Supplies,416967640,Published,2025-05-21,,,70
+PRJ-0229,MINTP,North,Works,272031714,Programming,,,,115
+PRJ-0230,MINEPAT,North-West,Supplies,382780635,Unsuccessful,2025-08-24,,,133
+PRJ-0231,MINEDUB,North,Works,467656219,Cancelled,2026-03-23,,,-10
+PRJ-0232,MINSANTE,Littoral,Supplies,235470246,Unsuccessful,2026-08-11,,,108
+PRJ-0233,MINADER,Far-North,Supplies,222450064,Programming,,,,10
+PRJ-0234,MINTP,North-West,Services,451690508,Cancelled,,,,27
+PRJ-0235,MINSANTE,Littoral,Works,321147866,Cancelled,,,,139
+PRJ-0236,MINMAP,Far-North,Supplies,123955593,Awarded,2025-12-08,89609210.41,Central Works SARL,48
+PRJ-0237,MINMAP,South,Services,491363563,Published,2025-12-24,,,94
+PRJ-0238,MINADER,North-West,Works,83621642,Programming,,,,70
+PRJ-0239,MINEPAT,North-West,Services,413137477,Published,2026-11-03,,,24
+PRJ-0240,MINEPAT,North West,Supplies,412955936,Unsuccessful,2026-08-17,,,119
+PRJ-0241,MINADER,East,Services,178521100,Unsuccessful,2026-10-05,,,85
+PRJ-0242,MINEPAT,Adamawa,Works,242408645,Cancelled,,,,75
+PRJ-0243,MINEDUB,Centre,Supplies,44830807,Unsuccessful,2025-11-14,,,123
+PRJ-0244,MINSANTE,Centre,Works,451513729,Awarded,2025-10-21,403382338.79,Cameroon Build Ltd,24
+PRJ-0245,MINEDUB,East,Services,253416429,Cancelled,2026-04-06,,,151
+PRJ-0246,  MINADER  ,South-West,Supplies,260351388,Unsuccessful,2026-05-29,,,43
+PRJ-0247,MINMAP,Adamawa,Works,388495242,Awarded,2025-03-28,347251859.59,Cameroon Build Ltd,134
+PRJ-0248,MINEPAT,Adamawa,Supplies,285648212,Unsuccessful,2026-09-17,,,45
+PRJ-0249,MINTP,North,Supplies,224456397,Cancelled,,,,178
+PRJ-0250,MINEDUB,Centre,Services,40386158,Awarded,2025-12-04,35030507.74,Global Services Ltd,29
+PRJ-0251,MINTP,West,Services,473838450,Unsuccessful,2025-06-03,,,90
+PRJ-0252,MINMAP,East,Services,497174504,Published,2025-12-25,,,84
+PRJ-0253,MINADER,,Works,385552363,Unsuccessful,2025-03-28,,,84
+PRJ-0254,MINEDUB,Far-North,Services,441575256,Awarded,2025-05-11,402208495.89,,176
+PRJ-0255,MINADER,South,Works,277992678,Cancelled,,,,9
+PRJ-0256,MINTP,West,Works,188466155,Published,2026-05-13,,,54
+PRJ-0257,MINEPAT,North-West,Works,163802173,Programming,,,,30
+PRJ-0258,MINEDUB,South,Services,25265528,Unsuccessful,2026-11-09,,,91
+PRJ-0259,MINPOSTEL,East,Works,207249940,Unsuccessful,2025-06-07,,,46
+PRJ-0260,MINEPAT,East,Works,28457195,Cancelled,,,,98
+PRJ-0261,,South-West,Supplies,157969517,Unsuccessful,2026-04-05,,,64
+PRJ-0262,MINEDUB,South-West,Supplies,490317525,Cancelled,2026-01-12,,,178
+PRJ-0263,MINEDUB,Adamawa,Supplies,422752160,Awarded,2026-01-27,362821941.47,Africa Infrastructure SARL,133
+PRJ-0264,MINPOSTEL,South-West,Services,473689338,Published,2025-09-14,,,18
+PRJ-0265,MINADER,Adamawa,Supplies,60077440,Unsuccessful,2026-06-13,,,36
+PRJ-0266,MINTP,Littoral,Works,246226417,Awarded,2026-06-10,233746188.67,Cameroon Build Ltd,42
+PRJ-0267,MINEPAT,Adamawa,Supplies,227746083,Programming,,,,18
+PRJ-0268,MINSANTE,South,Supplies,212321354,Published,2025-03-25,,,100
+PRJ-0269,MINEPAT,Centre,Supplies,455529337,Programming,,,,171
+PRJ-0270,  MINTP  ,North-West,Works,159017203,Programming,,,,125
+PRJ-0271,MINADER,North-West,Services,245841083,Cancelled,2025-03-23,,,9
+PRJ-0272,MINTP,South-West,Works,395431203,Unsuccessful,2026-09-16,,,140
+PRJ-0273,MINSANTE,Littoral,Supplies,166679319,Published,2025-05-05,,,17
+PRJ-0274,MINEPAT,Far-North,Services,250411006,Unsuccessful,2025-03-06,,,33
+PRJ-0275,MINPOSTEL,Adamawa,Services,13823660,Unsuccessful,2026-10-10,,,136
+PRJ-0276,MINEDUB,South-West,Services,161375457,Published,2026-03-16,,,5
+PRJ-0277,MINEDUB,North,Works,228643027,Unsuccessful,2025-07-11,,,175
+PRJ-0278,MINADER,Littoral,Services,41335059,Awarded,2026-06-23,35225667.38,Mountain Engineering,144
+PRJ-0279,MINEDUB,Centre,Supplies,28372367,Cancelled,,,,100
+PRJ-0280,MINTP,Centre,Supplies,190114431,Programming,,,,66
+PRJ-0281,MINADER,Littoral,Services,76623731,Awarded,2025-02-15,66187894.8,,95
+PRJ-0282,MINEPAT,Adamawa,Services,344160602,Cancelled,2025-05-19,,,21
+PRJ-0283,MINADER,North West,Works,113228341,Awarded,2025-02-14,109348811.45,Tech Solutions Cameroon,56
+PRJ-0284,MINTP,,Supplies,259154564,Unsuccessful,2025-09-17,,,14
+PRJ-0285,MINPOSTEL,South-West,Supplies,467857098,Awarded,2025-02-18,374087964.76,Cameroon Build Ltd,172
+PRJ-0286,MINPOSTEL,North,Supplies,404060285,Cancelled,,,,103
+PRJ-0287,MINTP,North-West,Supplies,202217877,Cancelled,,,,26
+PRJ-0288,MINADER,Far-North,Works,328439648,Cancelled,2026-07-13,,,80
+PRJ-0289,MINTP,Littoral,Works,359828306,Awarded,2025-10-30,300015748.3,,83
+PRJ-0290,MINSANTE,North-West,Services,193735351,Cancelled,,,,15
+PRJ-0291,MINADER,North,Services,152400786,Cancelled,2025-03-18,,,176
+PRJ-0292,MINADER,Far-North,Supplies,435085127,Unsuccessful,2026-11-27,,,45
+PRJ-0293,MINMAP,North-West,Services,23682554,Cancelled,2025-03-10,,,65
+PRJ-0294,MINPOSTEL,,Supplies,309537151,Cancelled,2026-09-12,,,44
+PRJ-0295,  MINADER  ,Adamawa,Supplies,243338089,Awarded,2025-03-20,180388601.62,Tech Solutions Cameroon,151
+PRJ-0296,MINSANTE,North,Services,139009235,Awarded,2025-04-27,127986144.33,Global Services Ltd,11
+PRJ-0297,MINEDUB,Far-North,Services,145540280,Programming,,,,71
+PRJ-0298,MINADER,Adamawa,Works,158317917,Unsuccessful,2026-05-18,,,56
+PRJ-0299,MINMAP,North-West,Works,97694177,Cancelled,,,,27
+PRJ-0300,MINPOSTEL,North,Services,385931648,Awarded,2025-03-08,332924479.68,Tech Solutions Cameroon,145
+PRJ-0094,MINSANTE,Centre,Supplies,364098790,Awarded,2026-11-27,333971222.0,Global Services Ltd,108
+PRJ-0067,MINSANTE,North West,Supplies,420176578,Programming,,,,76
+PRJ-0222,MINEPAT,Far-North,Supplies,188017138,Cancelled,2026-01-14,,,84
+PRJ-0258,MINEDUB,South,Services,25265528,Unsuccessful,2026-11-09,,,91
+PRJ-0029,MINADER,North,Supplies,247389777,Unsuccessful,2025-05-04,,,68
+PRJ-0064,MINPOSTEL,Far-North,Services,148240225,Published,2025-06-13,,,32
+PRJ-0266,MINTP,Littoral,Works,246226417,Awarded,2026-06-10,233746188.67,Cameroon Build Ltd,42
+PRJ-0079,MINTP,Littoral,Works,125603039,Awarded,2025-07-23,88842498.18,Africa Infrastructure SARL,42
+PRJ-0156,MINTP,Far-North,Supplies,148437229,Unsuccessful,2025-01-03,,,77
+PRJ-0085,MINPOSTEL,Adamawa,Services,234104699,Unsuccessful,2026-07-16,,,119
